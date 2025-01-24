@@ -94,7 +94,6 @@ const Navbar = () => {
                   Home
                 </AnchorLink>
               </li>
-
               <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}
@@ -105,8 +104,7 @@ const Navbar = () => {
                   About
                 </AnchorLink>
               </li>
-
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}
                   offset={() => -1}
@@ -115,20 +113,9 @@ const Navbar = () => {
                 >
                   Team
                 </AnchorLink>
-              </li>
+              </li> */}
 
-              <li className="nav-item">
-                <AnchorLink
-                  onClick={toggleNavbar}
-                  offset={() => -1}
-                  className="nav-link"
-                  href="#services"
-                >
-                  Services
-                </AnchorLink>
-              </li>
-
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}
                   offset={() => -1}
@@ -137,9 +124,8 @@ const Navbar = () => {
                 >
                   Work
                 </AnchorLink>
-              </li>
-
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}
                   offset={() => -1}
@@ -148,9 +134,8 @@ const Navbar = () => {
                 >
                   Pricing
                 </AnchorLink>
-              </li>
-
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}
                   offset={() => -1}
@@ -159,8 +144,7 @@ const Navbar = () => {
                 >
                   Blog
                 </AnchorLink>
-              </li>
-
+              </li> */}
               <li className="nav-item">
                 <AnchorLink
                   onClick={toggleNavbar}

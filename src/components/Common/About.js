@@ -21,7 +21,7 @@ const About = () => {
       <section
         id="about"
         className="about-area ptb-80 bg-f6f6f6"
-        style={{ backgroundImage: `url(/images/patt.png)` }}
+        // style={{ backgroundImage: `url(/images/patt.png)` }}
       >
         <div className="container">
           <div
@@ -32,11 +32,13 @@ const About = () => {
             data-aos-duration="1000"
           >
             <h2>
-              About <span>Addax</span>
+              About <span>Fara Sound</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We know what it takes to create an atmosphere that engages your
+              audience. With over 15 years experience in designing experiences
+              that engage guests and ensure your message is heard, we are the
+              team you can trust to deliver a flawless event.
             </p>
           </div>
 
@@ -51,28 +53,28 @@ const About = () => {
               >
                 <div className="section-title">
                   <h2>
-                    We Are Digital <span>Marketing & Branding</span>
+                    You Have <span>Enough</span> to Worry About
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Planning and executing an event is hard enough. We have a
+                    very simple philosophy: we want to make your life easier.
+                    Click the button below to get started on the 3 easy steps:
                   </p>
                 </div>
 
                 <ul className="pull-left">
                   <li>
-                    <i className="fa fa-check"></i>Creative Design
+                    <i className="fa fa-check"></i>Fill out the form
                   </li>
                   <li>
-                    <i className="fa fa-check"></i>Retina Ready
+                    <i className="fa fa-check"></i>Meet with us
                   </li>
                   <li>
-                    <i className="fa fa-check"></i>Responsive Design
+                    <i className="fa fa-check"></i>Pick your package
                   </li>
                 </ul>
 
-                <ul>
+                {/* <ul>
                   <li>
                     <i className="fa fa-check"></i>Modern Design
                   </li>
@@ -82,10 +84,16 @@ const About = () => {
                   <li>
                     <i className="fa fa-check"></i>Digital Marketing & Branding
                   </li>
-                </ul>
+                </ul> */}
+
+                <p>
+                  We&apos;ll take care of the rest so you can focus on the rest
+                  of your event!
+                </p>
+                <br />
 
                 <Link href="#" className="btn btn-primary">
-                  Read More
+                  Get Started
                 </Link>
               </div>
             </div>
@@ -106,9 +114,9 @@ const About = () => {
                   height={320}
                 />
 
-                <div className="video-btn" onClick={() => setToggler(!toggler)}>
+                {/* <div className="video-btn" onClick={() => setToggler(!toggler)}>
                   <i className="fa fa-play"></i>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

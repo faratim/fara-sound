@@ -9,7 +9,7 @@ const MainBannerOne = () => {
       <div
         id="home"
         className="main-banner"
-        style={{ backgroundImage: `url(/images/main-bg-1.jpg)` }}
+        style={{ backgroundImage: `url(/images/home-splash.jpg)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">
@@ -41,7 +41,8 @@ const MainBannerOne = () => {
                       data-aos-once="true"
                       data-aos-duration="1000"
                     >
-                      With money left in the budget.
+                      Full-service AVL for 10-10,000 person corporate events
+                      with money left in the budget.
                     </p>
 
                     <div

@@ -31,35 +31,35 @@ export default function Home() {
 
       <About />
 
-      <Strategy />
+      {/* <Strategy /> */}
 
-      <WhoWeAre />
+      {/* <WhoWeAre /> */}
 
       <Cto />
 
-      <Skill />
+      {/* <Skill /> */}
 
-      <Funfact />
+      {/* <Funfact /> */}
 
-      <Team />
+      {/* <Team /> */}
 
-      <HowWeWork />
+      {/* <HowWeWork /> */}
 
-      <Services />
+      {/* <Services /> */}
 
-      <Work />
+      {/* <Work /> */}
 
-      <Price />
+      {/* <Price /> */}
 
       <Faq />
 
-      <Testimonial />
+      {/* <Testimonial /> */}
 
-      <Blog />
+      {/* <Blog /> */}
 
       <Partner />
 
-      <Subscribe />
+      {/* <Subscribe /> */}
 
       <Contact />
 

@@ -15,13 +15,14 @@ const Welcome = () => {
             data-aos-once="true"
             data-aos-duration="1000"
           >
-            <h4>We are creative</h4>
+            <h4>Fara Sound</h4>
             <h2>
-              Welcome to <span>Addax</span>
+              Welcome to <span>Excellence</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Your event only happens once. A unique moment in time that will
+              have a lasting impact on the lives of your attendees. Don&apos;t
+              leave your technology needs to chance.
             </p>
           </div>
 
@@ -34,15 +35,15 @@ const Welcome = () => {
               data-aos-duration="1000"
             >
               <div className="single-box">
-                <i className="fa-regular fa-pen-to-square icon"></i>
-                <h3>Creative Design</h3>
+                <i className="fa-regular fa-handshake icon"></i>
+                <h3>Experience</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  From grammy award winning artists to multi-day conferences
+                  with thousands of people, we&apos;ve worked with the best.
                 </p>
-                <Link href="#" title="Read More" className="link-btn">
+                {/* <Link href="#" title="Read More" className="link-btn">
                   <i className="fa fa-arrow-right"></i>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -54,11 +55,12 @@ const Welcome = () => {
               data-aos-duration="1000"
             >
               <div className="single-box">
-                <i className="fa fa-laptop icon"></i>
-                <h3>Friendly Codes</h3>
+                <i className="fa fa-wand-magic-sparkles icon"></i>
+                <h3>Excellence</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  Our team has extensive training in customer experience, so
+                  you&apos;ll not just get great AVL, you&apos;ll love working
+                  with us.
                 </p>
                 <Link href="#" title="Read More" className="link-btn">
                   <i className="fa fa-arrow-right"></i>
@@ -74,11 +76,11 @@ const Welcome = () => {
               data-aos-duration="1000"
             >
               <div className="single-box">
-                <i className="fa fa-life-ring icon"></i>
-                <h3>Fast Support</h3>
+                <i className="fa fa-person-chalkboard icon"></i>
+                <h3>Expertise</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  We&apos;ll discuss your event needs down to the last detail,
+                  and recommend a custom solution that fits your budget.
                 </p>
                 <Link href="#" title="Read More" className="link-btn">
                   <i className="fa fa-arrow-right"></i>
