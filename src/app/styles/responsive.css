@@ -32,7 +32,8 @@
     color: #000000;
     padding-top: 0;
   }
-  .navbar.navbar-light .navbar-brand:focus, .navbar.navbar-light .navbar-brand:hover {
+  .navbar.navbar-light .navbar-brand:focus,
+  .navbar.navbar-light .navbar-brand:hover {
     color: #000000;
   }
   .navbar.navbar-light .navbar-toggler {
@@ -120,7 +121,8 @@
     line-height: 65px;
     font-size: 25px;
   }
-  .about-video .video-btn a::before, .about-video .video-btn a::after {
+  .about-video .video-btn a::before,
+  .about-video .video-btn a::after {
     height: 70px;
     width: 70px;
   }
@@ -156,7 +158,8 @@
   .about-skill .section-title {
     padding-left: 30px;
   }
-  .about-skill .section-title::before, .about-skill .section-title::after {
+  .about-skill .section-title::before,
+  .about-skill .section-title::after {
     display: block;
   }
   .about-skill .section-title h2 {
@@ -182,7 +185,8 @@
     line-height: 65px;
     font-size: 25px;
   }
-  .skill-video .video-btn a::before, .skill-video .video-btn a::after {
+  .skill-video .video-btn a::before,
+  .skill-video .video-btn a::after {
     height: 70px;
     width: 70px;
   }
@@ -612,13 +616,15 @@
   .example-demo-modal .inner {
     width: 300px;
   }
-  .home-slides .swiper-button-prev, .home-slides .swiper-button-next {
+  .home-slides .swiper-button-prev,
+  .home-slides .swiper-button-next {
     width: 30px;
     height: 30px;
     top: auto;
     bottom: 10px;
   }
-  .home-slides .swiper-button-prev::after, .home-slides .swiper-button-next::after {
+  .home-slides .swiper-button-prev::after,
+  .home-slides .swiper-button-next::after {
     font-size: 18px;
   }
 }
@@ -635,7 +641,8 @@
   .navbar.navbar-light .navbar-brand {
     color: #000000;
   }
-  .navbar.navbar-light:focus, .navbar.navbar-light:hover {
+  .navbar.navbar-light:focus,
+  .navbar.navbar-light:hover {
     color: #000000;
   }
   .navbar.navbar-light .navbar-toggler {
@@ -770,11 +777,13 @@
   .example-demo-modal .inner {
     width: 100%;
   }
-  .home-slides .swiper-button-prev, .home-slides .swiper-button-next {
+  .home-slides .swiper-button-prev,
+  .home-slides .swiper-button-next {
     width: 35px;
     height: 35px;
   }
-  .home-slides .swiper-button-prev::after, .home-slides .swiper-button-next::after {
+  .home-slides .swiper-button-prev::after,
+  .home-slides .swiper-button-next::after {
     font-size: 20px;
   }
   .main-banner-text {
@@ -817,4 +826,4 @@
   .main-banner {
     height: 950px !important;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */

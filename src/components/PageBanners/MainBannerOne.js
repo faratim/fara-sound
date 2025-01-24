@@ -17,14 +17,14 @@ const MainBannerOne = () => {
               <div className="row">
                 <div className="col-lg-12 col-md-12">
                   <div className="main-banner-text">
-                    <h4
+                    {/* <h4
                       data-aos="fade-up"
                       data-aos-delay="100"
                       data-aos-once="true"
                       data-aos-duration="1000"
                     >
                       We Are Creative
-                    </h4>
+                    </h4> */}
 
                     <h1
                       data-aos="fade-up"
@@ -41,9 +41,7 @@ const MainBannerOne = () => {
                       data-aos-once="true"
                       data-aos-duration="1000"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      With money left in the budget.
                     </p>
 
                     <div
@@ -56,9 +54,9 @@ const MainBannerOne = () => {
                         Get Started
                       </Link>
 
-                      <Link href="#work" className="btn btn-primary view-work">
+                      {/* <Link href="#work" className="btn btn-primary view-work">
                         View Work
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

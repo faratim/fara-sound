@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Image from "next/image";
-import whiteLogo from "../../../public/images/logo-all-white.png";
+import pinkLogo from "../../../public/images/logo-pink.png";
 
 const Navbar = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -66,7 +66,7 @@ const Navbar = () => {
       >
         <div className="container">
           <Link href="/" className="navbar-brand">
-            <Image src={whiteLogo} alt="logo" width={100} height={100} />
+            <Image src={pinkLogo} alt="logo" width={100} height={100} />
           </Link>
 
           <button
