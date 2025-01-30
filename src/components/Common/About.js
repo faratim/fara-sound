@@ -57,8 +57,9 @@ const About = () => {
                   </h2>
                   <p>
                     Planning and executing an event is hard enough. We have a
-                    very simple philosophy: we want to make your life easier.
-                    Click the button below to get started on the 3 easy steps:
+                    very simple philosophy:{" "}
+                    <strong>make your life easier.</strong> Click the button
+                    below to get started with 3 easy steps:
                   </p>
                 </div>
 
@@ -87,12 +88,12 @@ const About = () => {
                 </ul> */}
 
                 <p>
-                  We&apos;ll take care of the rest so you can focus on the rest
-                  of your event!
+                  We&apos;ll take care of everything so you can focus on the
+                  rest of your event!
                 </p>
                 <br />
 
-                <Link href="#" className="btn btn-primary">
+                <Link href="#contact" className="btn btn-primary">
                   Get Started
                 </Link>
               </div>

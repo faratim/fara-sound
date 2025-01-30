@@ -40,6 +40,7 @@ This files table contents are outlined below>>>>>
 *** - Footer Area CSS
 *** - Go Top CSS
 */
+
 /*
 ==============================
 Default CSS
@@ -316,11 +317,17 @@ Preloader CSS
     opacity: 0;
   }
 }
+
 /*
 ==============================
 Main Header CSS
 ==============================
 */
+#page-white-outline {
+  padding: 0.5rem 0.5rem;
+  background: #ffffff;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -406,6 +413,10 @@ Main Header CSS
 Main Banner CSS
 ==============================
 */
+.swiper-wrapper {
+  align-items: center !important;
+}
+
 .home-slides .swiper-button-prev,
 .home-slides .swiper-button-next {
   background: rgba(255, 255, 255, 0.33);
@@ -432,6 +443,8 @@ Main Banner CSS
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .main-banner::before {
   content: "";

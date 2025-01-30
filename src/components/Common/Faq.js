@@ -16,55 +16,40 @@ const Faq = () => {
             data-aos-duration="1000"
           >
             <h2>
-              Frequently Asked <span>Question</span>
+              Frequently Asked <span>Questions</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              If you have any additional quetsions, fill out the contact form
+              with your questions and we&apos;ll get back to you ASAP!
             </p>
           </div>
 
           <div className="row">
             <div className="col-lg-7 col-md-12">
               <Accordion>
-                <AccordionItem header="What harsh truths do you prefer to ignore?">
+                <AccordionItem header="How much will it cost?">
                   <p>
-                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                    cupidatat occaecat ut occaecat consequat est minim minim
-                    esse tempor laborum consequat esse adipisicing eu
-                    reprehenderit enim.
+                    We&apos;ve done events for as little as $500 and it goes up
+                    from there depending on the size and scope of the event.
+                    We&apos;ll work with you to find a solution that fits your
+                    budget.
                   </p>
                 </AccordionItem>
 
-                <AccordionItem header="Is free will real or just an illusion?">
+                <AccordionItem header="Can I just rent your equipment or do I need an AVL tech as well?">
                   <p>
-                    In ad velit in ex nostrud dolore cupidatat consectetur ea in
-                    ut nostrud velit in irure cillum tempor laboris sed
-                    adipisicing eu esse duis nulla non.
+                    It depends on the nature of your event. We can rent you the
+                    equipment and you can run it yourself, or we can provide a
+                    tech to run the equipment for you. We&apos;ll work with you
+                    to find a solution that fits your needs.
                   </p>
                 </AccordionItem>
 
-                <AccordionItem header="Is free will real or just an illusion?">
+                <AccordionItem header="How much notice is needed to hire you?">
                   <p>
-                    In ad velit in ex nostrud dolore cupidatat consectetur ea in
-                    ut nostrud velit in irure cillum tempor laboris sed
-                    adipisicing eu esse duis nulla non.
-                  </p>
-                </AccordionItem>
-
-                <AccordionItem header="Is free will real or just an illusion?">
-                  <p>
-                    In ad velit in ex nostrud dolore cupidatat consectetur ea in
-                    ut nostrud velit in irure cillum tempor laboris sed
-                    adipisicing eu esse duis nulla non.
-                  </p>
-                </AccordionItem>
-
-                <AccordionItem header="Is free will real or just an illusion?">
-                  <p>
-                    In ad velit in ex nostrud dolore cupidatat consectetur ea in
-                    ut nostrud velit in irure cillum tempor laboris sed
-                    adipisicing eu esse duis nulla non.
+                    Part of making your life easier is being flexible. Even if
+                    it&apos;s last minute, reach out to us and we&apos;ll do our
+                    best to make it happen.
                   </p>
                 </AccordionItem>
               </Accordion>

@@ -17,7 +17,7 @@ const Welcome = () => {
           >
             <h4>Fara Sound</h4>
             <h2>
-              Welcome to <span>Excellence</span>
+              Welcome to a Better <span>Experience</span>
             </h2>
             <p>
               Your event only happens once. A unique moment in time that will

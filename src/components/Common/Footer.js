@@ -2,6 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import pinkLogo from "../../../public/images/logo-pink.png";
 
 const Footer = () => {
   return (
@@ -12,11 +14,11 @@ const Footer = () => {
             <div className="col-lg-12 col-md-12">
               <h4>
                 <Link href="/">
-                  <span>a</span>ddax
+                  <Image src={pinkLogo} alt="logo" width={100} height={100} />
                 </Link>
               </h4>
 
-              <ul>
+              {/* <ul>
                 <li>
                   <Link
                     href="https://www.facebook.com/"
@@ -32,7 +34,11 @@ const Footer = () => {
                   ></Link>
                 </li>
                 <li>
-                  <Link href="#" className="fa-brands fa-skype" target="_blank"></Link>
+                  <Link
+                    href="#"
+                    className="fa-brands fa-skype"
+                    target="_blank"
+                  ></Link>
                 </li>
                 <li>
                   <Link
@@ -48,11 +54,9 @@ const Footer = () => {
                     target="_blank"
                   ></Link>
                 </li>
-              </ul>
+              </ul> */}
 
-              <p>
-                © Addax is Proudly Owned by <b>EnvyTheme</b>
-              </p>
+              <p>© FaraSound 2025</p>
             </div>
           </div>
         </div>

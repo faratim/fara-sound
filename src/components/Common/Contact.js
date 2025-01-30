@@ -61,11 +61,11 @@ const Contact = () => {
           >
             <h4>Get in Touch</h4>
             <h2>
-              Let&apos;s <span>Contact</span> Us
+              Let&apos;s <span>Do</span> This
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Want a free, no obligation quote? Have questions? Fill out the
+              form below and we&apos;ll get back to you ASAP!
             </p>
           </div>
 
@@ -73,7 +73,7 @@ const Contact = () => {
             <div className="col-lg-6 col-md-12">
               <iframe
                 title="Google Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d699.1289800297188!2d18.077942675805485!3d59.32663213203372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d5641a77669%3A0xe02744b36aab9f53!2sExercisplan%204%2C%20111%2049%20Stockholm%2C%20Sweden!5e0!3m2!1sen!2sbd!4v1635073543164!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d418768.37970856207!2d-81.06681461663921!3d35.22708685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0x884650e6bf43d164!2sCharlotte%2C+NC!5e0!3m2!1sen!2sus!4v1"
                 width="100%"
                 height="392"
                 loading="lazy"
@@ -82,20 +82,16 @@ const Contact = () => {
               <div className="contact-info">
                 <ul>
                   <li>
-                    <i className="fa fa-map-marker"></i> Exercisplan 4, 111 49
-                    Stockholm, Sweden
+                    <i className="fa fa-map-marker"></i> We service the Greater
+                    Charlotte, NC area!
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <a href="mailto:addax@gmail.com">addax@gmail.com</a>
+                    <a href="mailto:addax@gmail.com">faratim@gmail.com</a>
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:124412-2445515">(+124)412-2445515</a>
-                  </li>
-                  <li>
-                    <i className="fa fa-fax"></i>
-                    <a href="tel:617-241-60055">617-241-60055</a>
+                    <a href="tel:124412-2445515">(219) 608-4505</a>
                   </li>
                 </ul>
               </div>
@@ -103,7 +99,7 @@ const Contact = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="contact-form">
-                <h4>Stay Connected</h4>
+                <h4>Let&apos;s Chat</h4>
 
                 <form onSubmit={handleSubmit}>
                   <div className="row">

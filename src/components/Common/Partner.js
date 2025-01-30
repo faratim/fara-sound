@@ -36,7 +36,18 @@ const Partner = () => {
             <SwiperSlide>
               <div className="item">
                 <Image
-                  src="/images/partner-1.png"
+                  src="/images/avidxchange-logo.png"
+                  alt="partner"
+                  width={120}
+                  height={100}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/bisnow-logo.png"
                   alt="partner"
                   width={140}
                   height={100}
@@ -47,7 +58,18 @@ const Partner = () => {
             <SwiperSlide>
               <div className="item">
                 <Image
-                  src="/images/partner-2.png"
+                  src="/images/classdojo-logo.png"
+                  alt="partner"
+                  width={200}
+                  height={160}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/sharecharlotte-logo.png"
                   alt="partner"
                   width={140}
                   height={100}
@@ -56,6 +78,50 @@ const Partner = () => {
             </SwiperSlide>
 
             <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/fleurix-logo.png"
+                  alt="partner"
+                  width={140}
+                  height={100}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/charlotteworks-logo.webp"
+                  alt="partner"
+                  width={100}
+                  height={100}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/elevationworship-logo.png"
+                  alt="partner"
+                  width={140}
+                  height={100}
+                />
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="item">
+                <Image
+                  src="/images/union-logo.png"
+                  alt="partner"
+                  width={140}
+                  height={100}
+                />
+              </div>
+            </SwiperSlide>
+
+            {/* <SwiperSlide>
               <div className="item">
                 <Image
                   src="/images/partner-3.png"
@@ -97,73 +163,7 @@ const Partner = () => {
                   height={100}
                 />
               </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-1.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-2.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-3.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-4.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-5.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="item">
-                <Image
-                  src="/images/partner-6.png"
-                  alt="partner"
-                  width={140}
-                  height={100}
-                />
-              </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

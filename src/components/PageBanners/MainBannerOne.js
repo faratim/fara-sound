@@ -32,7 +32,7 @@ const MainBannerOne = () => {
                       data-aos-once="true"
                       data-aos-duration="1000"
                     >
-                      The Best <span>Events</span> You&apos;ve Ever Had
+                      The Best <span>Event</span> You&apos;ve Ever Had
                     </h1>
 
                     <p
@@ -51,7 +51,7 @@ const MainBannerOne = () => {
                       data-aos-once="true"
                       data-aos-duration="1000"
                     >
-                      <Link href="#welcome" className="btn btn-primary">
+                      <Link href="#contact" className="btn btn-primary">
                         Get Started
                       </Link>
 
