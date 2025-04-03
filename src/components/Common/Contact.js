@@ -5,7 +5,7 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
-import baseUrl from "../../../utils/baseUrl";
+// import baseUrl from "../../../utils/baseUrl";
 
 const alertContent = () => {
   MySwal.fire({
@@ -36,28 +36,19 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Use absolute URL for the API
-      const url = `${baseUrl}/api/contact`;
+      // Use Formspree endpoint
+      const url = "https://formspree.io/f/xrbpylor";
       const { name, email, number, message } = contact;
       const payload = { name, email, number, message };
 
-      console.log("Submitting form to:", url);
+      console.log("Submitting form to Formspree");
 
       const response = await axios.post(url, payload);
       console.log("Form submission response:", response.data);
 
-      if (response.data.success) {
-        setContact(INITIAL_STATE);
-        alertContent();
-      } else {
-        console.error("Form submission failed:", response.data.message);
-        Swal.fire({
-          title: "Error!",
-          text: "There was a problem sending your message. Please try again.",
-          icon: "error",
-          confirmButtonText: "OK",
-        });
-      }
+      // Formspree always returns success on valid submissions
+      setContact(INITIAL_STATE);
+      alertContent();
     } catch (error) {
       console.error("Form submission error:", error);
       Swal.fire({
