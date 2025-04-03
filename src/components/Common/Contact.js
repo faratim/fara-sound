@@ -10,9 +10,9 @@ import baseUrl from "../../../utils/baseUrl";
 const alertContent = () => {
   MySwal.fire({
     title: "Congratulations!",
-    text: "Your message was successfully send and will back to you soon",
+    text: "Your message was successfully sent.  We'll be in contact soon!",
     icon: "success",
-    timer: 2000,
+    timer: 3000,
     timerProgressBar: true,
     showConfirmButton: false,
   });
@@ -36,15 +36,35 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = `${baseUrl}/api/contact`;
+      // Use relative URL for production and Cloudflare Pages
+      const url = "/api/contact";
       const { name, email, number, message } = contact;
       const payload = { name, email, number, message };
+
       const response = await axios.post(url, payload);
       console.log(response.data);
-      setContact(INITIAL_STATE);
-      alertContent();
+
+      if (response.data.success) {
+        setContact(INITIAL_STATE);
+        alertContent();
+      } else {
+        // Handle error
+        console.error("Form submission failed:", response.data.message);
+        Swal.fire({
+          title: "Error!",
+          text: "There was a problem sending your message. Please try again.",
+          icon: "error",
+          confirmButtonText: "OK",
+        });
+      }
     } catch (error) {
-      console.log(error);
+      console.error("Form submission error:", error);
+      Swal.fire({
+        title: "Error!",
+        text: "There was a problem sending your message. Please try again.",
+        icon: "error",
+        confirmButtonText: "OK",
+      });
     }
   };
 
