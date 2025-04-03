@@ -4,7 +4,6 @@ import Cto from "@/components/Common/Cto";
 import Faq from "@/components/Common/Faq";
 import Footer from "@/components/Common/Footer";
 import Partner from "@/components/Common/Partner";
-import Testimonial from "@/components/Common/Testimonial";
 import Welcome from "@/components/Common/Welcome";
 import Navbar from "@/components/Layout/Navbar";
 import MainBannerOne from "@/components/PageBanners/MainBannerOne";
