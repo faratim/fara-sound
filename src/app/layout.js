@@ -11,9 +11,9 @@ import "../app/styles/dark.css";
 
 import { Poppins } from "next/font/google";
 import GoTop from "@/components/Common/GoTop";
-import DemoSidebar from "@/components/Common/DemoSidebar/DemoSidebar";
+// import DemoSidebar from "@/components/Common/DemoSidebar/DemoSidebar";
 import AosAnimation from "@/components/Layout/AosAnimation";
-import DarkModeSwitcher from "@/components/Layout/DarkModeSwitcher";
+// import DarkModeSwitcher from "@/components/Layout/DarkModeSwitcher";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
 
         <AosAnimation />
 
-        <DarkModeSwitcher />
+        {/* <DarkModeSwitcher /> */}
 
-        <DemoSidebar />
+        {/* <DemoSidebar /> */}
       </body>
     </html>
   );
