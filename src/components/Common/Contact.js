@@ -36,19 +36,20 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Use relative URL for production and Cloudflare Pages
-      const url = "/api/contact";
+      // Use absolute URL for the API
+      const url = `${baseUrl}/api/contact`;
       const { name, email, number, message } = contact;
       const payload = { name, email, number, message };
 
+      console.log("Submitting form to:", url);
+
       const response = await axios.post(url, payload);
-      console.log(response.data);
+      console.log("Form submission response:", response.data);
 
       if (response.data.success) {
         setContact(INITIAL_STATE);
         alertContent();
       } else {
-        // Handle error
         console.error("Form submission failed:", response.data.message);
         Swal.fire({
           title: "Error!",
@@ -61,7 +62,7 @@ const Contact = () => {
       console.error("Form submission error:", error);
       Swal.fire({
         title: "Error!",
-        text: "There was a problem sending your message. Please try again.",
+        text: "There was a problem sending your message. Please try again later.",
         icon: "error",
         confirmButtonText: "OK",
       });
