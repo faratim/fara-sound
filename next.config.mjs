@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // For Static Export
   output: "export",
   trailingSlash: true,
   images: {
     unoptimized: true,
+  },
+  // Add this to tell Next.js about your functions directory
+  experimental: {
+    cloudflareWorkers: true,
   },
 };
 
